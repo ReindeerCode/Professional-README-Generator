@@ -18,7 +18,21 @@ const questions = [
   {
     type: "input",
     name: "Description",
-    message: "What is your project description",
+    message: "What is your project description.",
+  },
+  {
+    type: "list",
+    name: "License",
+    message: "Apply License Badge?",
+    choices: [
+      "MIT",
+      new inquirer.Separator(),
+      "GPL v3",
+      new inquirer.Separator(),
+      "AGPL",
+      new inquirer.Separator(),
+      "No License Yet",
+    ],
   },
   {
     type: "input",
