@@ -17,6 +17,7 @@ const questions = [
     name: "license",
     message: "Apply License Badge?",
     choices: [
+      new inquirer.Separator(),
       "MIT",
       new inquirer.Separator(),
       "GPLv3",
@@ -24,6 +25,7 @@ const questions = [
       "AGPL",
       new inquirer.Separator(),
       "No License Yet",
+      new inquirer.Separator(),
     ],
   },
   {
