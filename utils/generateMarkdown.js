@@ -2,7 +2,7 @@
 function generateMarkdown(answers) {
   return `
   # Project:
-  ### **${answers.name}
+  ### ${answers.name}
 
 ## Table of Contents: 
     * [Name](#name)
@@ -18,7 +18,7 @@ function generateMarkdown(answers) {
     [![License:${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license})
 
 ## Description:
-    ### ${answers.description}
+    ${answers.description}
 
 ### Images:
     ![Project Screenshot](./imagePathHere.png)
@@ -28,19 +28,19 @@ function generateMarkdown(answers) {
     ![Project Screenshot](./imagePathHere.png)
 
 ## Installation Instructions: 
-    ### ${answers.installationInstructions}
+    ${answers.installationInstructions}
 
 ## Test Command: 
-    ### To test type ${answers.test} into the terminal
+    To test type ${answers.test} into the terminal
 
 ## My Github Username: 
-    ### Check out more project on my Github at ${answers.gitHub}
+    Check out more project on my Github at ${answers.gitHub}
 
 ## My Email Address:
-    ### If you have any question please feel free to email me at ${answers.email}
+    If you have any question please feel free to email me at ${answers.email}
 
 ## Other Contributors:
-    ### ${answers.contributors}
+    ${answers.contributors}
 `;
 }
 
