@@ -1,5 +1,5 @@
 //import external data
-import inquirer from "./node_modules/inquirer/lib/inquirer.js";
+import inquirer from "inquirer";
 import fs from "fs";
 // import generateMarkdown from "./utils/generateMarkdown";
 //end imports
