@@ -65,7 +65,7 @@ const questions = [
 function init() {
   inquirer.prompt(questions).then((answer) => {
     writeToFile(
-      "ReadMe",
+      "ReadMe.md",
       generateMarkdown({
         ...answer,
       })
