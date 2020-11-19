@@ -1,8 +1,6 @@
-// function to generate markdown for README
-function generateMarkdown(answers) {
-  return `
+
   # Project:
-      ###${answers.name}
+      ###Mike Rudolph
 
   ## Table of Contents:
       * [Name](#name)
@@ -15,10 +13,10 @@ function generateMarkdown(answers) {
       * [Contributors](#contributors)
   
   ## License:
-      ### ${answers.license}
+      ###MIT
 
   ## Description:
-      ### ${answers.description}
+      ###Use node to create professional readMe markdownfile.
 
   ### Images:
       ![code refactor demo](./imagePathHere.png)
@@ -28,20 +26,16 @@ function generateMarkdown(answers) {
       ![code refactor demo](./imagePathHere.png)
 
   ## Installation Instructions: 
-      ### ${answers.installationInstructions}
+      ###Requires inquirer be installed from npm.org.
 
   ## Test Command: 
-      ### ${answers.test}
+      ###node index.js
 
   ## My Github Username: 
-      ### ${answers.gitHub}
+      ###ReindeerCode
 
   ## My Email Address:
-      ### ${answers.email}
+      ###ReindeerCode@gmail.com
   
   ## Other Contributors:
-      ### ${answers.contributors}
-`;
-}
-
-module.exports = generateMarkdown;
+      ###Me

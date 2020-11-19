@@ -1,11 +1,9 @@
 //import external data
-import inquirer from "inquirer";
-import fs from "fs";
-import generateMarkdown from "./utils/generateMarkdown";
+const inquirer = require("inquirer");
+const fs = require("fs");
+const path = require("path");
+const generateMarkdown = require("./utils/generateMarkdown");
 //end imports
-
-
-//  });
 
 // array of questions for user
 const questions = [
@@ -20,11 +18,11 @@ const questions = [
     message: "Apply License Badge?",
     choices: [
       "MIT",
-      new inquirer.Separator(),
+      //
       "GPL v3",
-      new inquirer.Separator(),
+      //new inquirer.Separator(),
       "AGPL",
-      new inquirer.Separator(),
+      //new inquirer.Separator(),
       "No License Yet",
     ],
   },
@@ -63,27 +61,43 @@ const questions = [
 ];
 // end array of questions for user
 
-// array of answers
-  .then((answers) => {
-    console.log(answers);
-//end array of answers
-
-
-inquirer.prompt(questions);
+// function to generate readMe
+function init() {
+  inquirer.prompt(questions).then((answer) => {
+    writeToFile(
+      "ReadMe",
+      generateMarkdown({
+        ...answer,
+      })
+    );
+  });
+}
+//end function to generate Readme
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 // end function to write README file
-
-// function to initialize program
-function init() {}
-// end function to initialize program
 
 // function call to initialize program
 init();
 // end function call to initialize program
 
-// License Badges
-// [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-// [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-// [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+// license badges function
+// function LicenseBadge(license) {
+//   if (license === "MIT"){
+//     return [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+//   } else {
+//     if (license === "GPL v3") {
+//       return [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+//     } else {
+//       if (license === "AGPL") {
+//         return [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+//       } else (license === "No License Yet") {
+//         return ("No License Yet")
+//       }
+//     }
+//   }
+// }
+// end license badges function
