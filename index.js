@@ -63,11 +63,11 @@ const questions = [
 
 // function to generate readMe
 function init() {
-  inquirer.prompt(questions).then((answer) => {
+  inquirer.prompt(questions).then((answers) => {
     writeToFile(
       "ReadMe.md",
       generateMarkdown({
-        ...answer,
+        ...answers,
       })
     );
   });
