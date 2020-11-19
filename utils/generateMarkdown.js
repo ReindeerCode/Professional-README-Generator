@@ -2,9 +2,9 @@
 function generateMarkdown(answers) {
   return `
   # Project:
-      ###${answers.name}
+      ### ${answers.name}
 
-  ## Table of Contents:
+  ##### Table of Contents:
       * [Name](#name)
       * [License](#license)
       * [Description](#description)
@@ -31,13 +31,13 @@ function generateMarkdown(answers) {
       ### ${answers.installationInstructions}
 
   ## Test Command: 
-      ### ${answers.test}
+      ### To test type ${answers.test} into the terminal
 
   ## My Github Username: 
-      ### ${answers.gitHub}
+      ### Check out more project on my Github at ${answers.gitHub}
 
   ## My Email Address:
-      ### ${answers.email}
+      ### If you have any question please feel free to email me at ${answers.email}
   
   ## Other Contributors:
       ### ${answers.contributors}
