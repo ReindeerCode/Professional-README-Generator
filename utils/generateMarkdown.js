@@ -1,47 +1,80 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
-  return `
-  # Project:
-    ### ${answers.name}
-
-  ## Table of Contents:
-      * [Name](#name)
-      * [License](#license)
-      * [Description](#description)
-      * [Installation Instructions](#installationInstructions)
-      * [Test](#test)
-      * [GitHub](#gitHub)
-      * [Email](#email)
-      * [Contributors](#contributors)
-  
-  ## License:
-      ### ${answers.license}
-
-  ## Description:
-      ### ${answers.description}
-
-  ### Images:
-      ![code refactor demo](./imagePathHere.png)
-
-      ![code refactor demo](./imagePathHere.png)
-
-      ![code refactor demo](./imagePathHere.png)
-
-  ## Installation Instructions: 
-      ### ${answers.installationInstructions}
-
-  ## Test Command: 
-      ### To test type ${answers.test} into the terminal
-
-  ## My Github Username: 
-      ### Check out more project on my Github at ${answers.gitHub}
-
-  ## My Email Address:
-      ### If you have any question please feel free to email me at ${answers.email}
-  
-  ## Other Contributors:
-      ### ${answers.contributors}
-`;
+  return `<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="sssX-UA-Compatible" content="ie=edge" />
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      />
+      <title>Document</title>
+    </head>
+    <body>
+      <div>
+          <h1 class="display-4">### Project:</h1>
+          <h3> ${answers.name}</h3>
+      </div>
+      </br>
+      <div>
+      <h2>## Table of Contents: </h2> 
+      <ul>
+          <li>* [Name](#name) </li>
+          <li>* [License](#license) </li>
+          <li>* [Description](#description) </li>
+          <li>* [Installation Instructions](#installationInstructions) </li>
+          <li>* [Test](#test) </li>
+          <li>* [GitHub](#gitHub) </li>
+          <li>* [Email](#email) </li>
+          <li>* [Contributors](#contributors) </li>
+      </ul>
+      </div>
+  </br>
+      <div>
+          <h2>## License: </h2>
+          <h3>### ${answers.license} </h3>
+      </div>
+      </br>   
+      <div>
+          <h2>## Description: </h2>
+          <h3>### ${answers.description} </h3>
+      </div>
+      </br>   
+      <div>
+      <h2>### Images: </h2> 
+          <ul>
+              <li>* ![Project Screenshot](./imagePathHere.png) </li>
+              <li>* ![Project Screenshot](./imagePathHere.png) </li>
+              <li>* ![Project Screenshot](./imagePathHere.png) </li>
+          </ul>
+      </div>
+      <div>
+          <h2>## Installation Instructions: </h2>
+          <h3>### ${answers.installationInstructions}</h3>
+      </div>
+      </br> 
+      <div>
+          <h2>## Test Command:  </h2>
+          <h3>### To test type ${answers.test} into the terminal and follow prompts</h3>
+      </div>
+      <div>
+          <h2>## Other Contributors:  </h2>
+          <h3>### ${answers.contributors}</h3>
+      </div>
+      </br> 
+      <div>
+          <h2>## My Github Username:   </h2>
+          <h3>### Check out more project on my Github at ${answers.gitHub}</h3>
+      </div>
+      </br> 
+      <div>
+          <h2>## My Email Address:  </h2>
+          <h3>### If you have any question please feel free to email me at ${answers.email}</h3>
+      </div>
+    </body>
+  </html>
+  `;
 }
 
 module.exports = generateMarkdown;
