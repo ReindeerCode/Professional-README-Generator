@@ -67,7 +67,7 @@ const questions = [
 function init() {
   inquirer.prompt(questions).then((answers) => {
     writeToFile(
-      "ReadMe.md",
+      "Example_ReadMe.md",
       generateMarkdown({
         ...answers,
       })
@@ -85,21 +85,3 @@ function writeToFile(fileName, data) {
 // function call to initialize program
 init();
 // end function call to initialize program
-
-// license badges function
-// function LicenseBadge(license) {
-//   if (license === "MIT"){
-//     return [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-//   } else {
-//     if (license === "GPL v3") {
-//       return [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-//     } else {
-//       if (license === "AGPL") {
-//         return [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-//       } else (license === "No License Yet") {
-//         return ("No License Yet")
-//       }
-//     }
-//   }
-// }
-// end license badges function

@@ -2,7 +2,7 @@
 function generateMarkdown(answers) {
   return `
   # Project:
-  ### ${answers.name}
+   ${answers.name}
 
 ## Table of Contents: 
     * [Name](#name)
