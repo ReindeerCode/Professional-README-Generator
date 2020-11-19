@@ -1,7 +1,40 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+function generateMarkdown(answers) {
+  return `
+  
+  # Project:
+  ###${answers.name}
 
+  ## Table of Contents:
+  * [Name](#name)
+  * [License](#license)
+  * [Description](#description)
+  * [Installation Instructions](#installationInstructions)
+  * [Test](#test)
+  * [GitHub](#gitHub)
+  * [Email](#email)
+  * [Contributors](#contributors)
+  * 
+  ## License:
+  ###${answers.license}
+
+  ## Description:
+  ###${answers.description}
+
+  ## Installation Instructions: 
+  ###${answers.installationInstructions}
+
+  ## Test Command: 
+  ###${answers.test}
+
+  ## My Github Username: 
+  ###${answers.gitHub}
+
+  ## My Email Address:
+  ###${answers.email}
+  
+  ## Other Contributors:
+  ###${answers.contributors}
 `;
 }
 

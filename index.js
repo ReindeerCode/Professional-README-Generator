@@ -1,7 +1,7 @@
 //import external data
 import inquirer from "inquirer";
 import fs from "fs";
-// import generateMarkdown from "./utils/generateMarkdown";
+import generateMarkdown from "./utils/generateMarkdown";
 //end imports
 
 //   .then((answers) => {
@@ -12,17 +12,12 @@ import fs from "fs";
 const questions = [
   {
     type: "input",
-    name: "Name",
+    name: "name",
     message: "What is your project's name?",
   },
   {
-    type: "input",
-    name: "Description",
-    message: "Briefly, describe your project.",
-  },
-  {
     type: "list",
-    name: "License",
+    name: "license",
     message: "Apply License Badge?",
     choices: [
       "MIT",
@@ -36,41 +31,49 @@ const questions = [
   },
   {
     type: "input",
-    name: "Installation Instructions",
-    message: "What are the installation instructions?",
+    name: "description",
+    message: "Briefly, describe your project.",
+  },
+
+  {
+    type: "input",
+    name: "installationInstructions",
+    message:
+      "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
   },
   {
     type: "input",
-    name: "Test",
+    name: "test",
     message: "What is the command to test the project?",
   },
   {
     type: "input",
-    name: "GitHub",
+    name: "gitHub",
     message: "What's your GitHub username?",
   },
   {
     type: "input",
-    name: "Email",
+    name: "email",
     message: "What is your email address?",
   },
   {
     type: "input",
-    name: "Contributors",
+    name: "contributors",
     message: "Who are the contributors of this project?",
   },
 ];
 // end array of questions for user
+
 inquirer.prompt(questions);
 
-// // function to write README file
-// function writeToFile(fileName, data) {}
-// // end function to write README file
+// function to write README file
+function writeToFile(fileName, data) {}
+// end function to write README file
 
-// // function to initialize program
-// function init() {}
-// // end function to initialize program
+// function to initialize program
+function init() {}
+// end function to initialize program
 
-// // function call to initialize program
-// init();
-// // end function call to initialize program
+// function call to initialize program
+init();
+// end function call to initialize program
