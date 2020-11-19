@@ -18,11 +18,11 @@ const questions = [
     message: "Apply License Badge?",
     choices: [
       "MIT",
-      //
-      "GPL v3",
-      //new inquirer.Separator(),
+      new inquirer.Separator(),
+      "GPLv3",
+      new inquirer.Separator(),
       "AGPL",
-      //new inquirer.Separator(),
+      new inquirer.Separator(),
       "No License Yet",
     ],
   },

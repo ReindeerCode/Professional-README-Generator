@@ -16,7 +16,7 @@ function generateMarkdown(answers) {
           <h4> ${answers.name}</h4>
       </div>
       </br>
-      <a name="toc">
+      <div>
       <h2> Table of Contents: </h2> 
       <ul>
           <li>*[Project](#name) </li>
@@ -28,11 +28,11 @@ function generateMarkdown(answers) {
           <li>*[Email](#email) </li>
           <li>*[Contributors](#contributors) </li>
       </ul>
-      </a>
+      </div>
   </br>
       <div>
           <h2>License: </h2>
-          <h4>${answers.license} </h4>
+          <h4>[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license})          </h4>
       </div>
       </br>   
       <div>
