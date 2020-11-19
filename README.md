@@ -1,9 +1,8 @@
-# Project:
 
-      ###test
+  # Project:
+    ### Test
 
-##### Table of Contents:
-
+  ## Table of Contents:
       * [Name](#name)
       * [License](#license)
       * [Description](#description)
@@ -12,39 +11,31 @@
       * [GitHub](#gitHub)
       * [Email](#email)
       * [Contributors](#contributors)
-
-## License:
-
+  
+  ## License:
       ### MIT
 
-## Description:
+  ## Description:
+      ### This is a test
 
-      ### skdjf
-
-### Images:
-
+  ### Images:
       ![code refactor demo](./imagePathHere.png)
 
       ![code refactor demo](./imagePathHere.png)
 
       ![code refactor demo](./imagePathHere.png)
 
-## Installation Instructions:
+  ## Installation Instructions: 
+      ### sdfkj
 
-      ### slkdfj
+  ## Test Command: 
+      ### To test type sdjkfhsdjkhf into the terminal
 
-## Test Command:
+  ## My Github Username: 
+      ### Check out more project on my Github at sdkjhjsdkjfh
 
-      ### sdlkfj
-
-## My Github Username:
-
-      ### sdkljf
-
-## My Email Address:
-
-      ### sdlkjf
-
-## Other Contributors:
-
-      ### slkdjf
+  ## My Email Address:
+      ### If you have any question please feel free to email me at sdkjhdskjfh
+  
+  ## Other Contributors:
+      ### sdkjhsdkfjh
