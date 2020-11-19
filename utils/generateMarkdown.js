@@ -1,8 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
   return `
-  
-  # Project:
+    # Project:
   ###${answers.name}
 
   ## Table of Contents:
@@ -20,6 +19,13 @@ function generateMarkdown(answers) {
 
   ## Description:
   ###${answers.description}
+
+  ### Images:
+  ![code refactor demo](./imagePathHere.png)
+
+  ![code refactor demo](./imagePathHere.png)
+
+  ![code refactor demo](./imagePathHere.png)
 
   ## Installation Instructions: 
   ###${answers.installationInstructions}
