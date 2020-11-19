@@ -1,14 +1,13 @@
-import inquirer from "inquirer";
-// import fs from "fs";
+//import external data
+import inquirer from "./node_modules/inquirer/lib/inquirer.js";
+import fs from "fs";
 // import generateMarkdown from "./utils/generateMarkdown";
+//end imports
 
-inquirer
-  .prompt(questions)
 //   .then((answers) => {
 //     console.log(answers);
-  });
+//  });
 
-  
 // array of questions for user
 const questions = [
   {
@@ -61,13 +60,17 @@ const questions = [
     message: "Who are the contributors of this project?",
   },
 ];
+// end array of questions for user
+inquirer.prompt(questions);
 
+// // function to write README file
+// function writeToFile(fileName, data) {}
+// // end function to write README file
 
-// function to write README file
-function writeToFile(fileName, data) {}
+// // function to initialize program
+// function init() {}
+// // end function to initialize program
 
-// function to initialize program
-function init() {}
-
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
+// // end function call to initialize program
