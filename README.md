@@ -16,7 +16,7 @@
       ### MIT
 
   ## Description:
-      ### This is a test
+      ### Test
 
   ### Images:
       ![code refactor demo](./imagePathHere.png)
@@ -26,16 +26,16 @@
       ![code refactor demo](./imagePathHere.png)
 
   ## Installation Instructions: 
-      ### sdfkj
+      ### TEsdjkhf
 
   ## Test Command: 
-      ### To test type sdjkfhsdjkhf into the terminal
+      ### To test type skdjhjfkjsh into the terminal
 
   ## My Github Username: 
-      ### Check out more project on my Github at sdkjhjsdkjfh
+      ### Check out more project on my Github at 'sdjhfksdhs'sdhfjh
 
   ## My Email Address:
-      ### If you have any question please feel free to email me at sdkjhdskjfh
+      ### If you have any question please feel free to email me at hsdkjhskdjfh
   
   ## Other Contributors:
-      ### sdkjhsdkfjh
+      ### shkjsdhf
