@@ -1,8 +1,9 @@
+# Project:
 
-  # Project:
       ###test
 
-  ## Table of Contents:
+##### Table of Contents:
+
       * [Name](#name)
       * [License](#license)
       * [Description](#description)
@@ -11,31 +12,39 @@
       * [GitHub](#gitHub)
       * [Email](#email)
       * [Contributors](#contributors)
-  
-  ## License:
+
+## License:
+
       ### MIT
 
-  ## Description:
+## Description:
+
       ### skdjf
 
-  ### Images:
-      ![code refactor demo](./imagePathHere.png)
+### Images:
 
       ![code refactor demo](./imagePathHere.png)
 
       ![code refactor demo](./imagePathHere.png)
 
-  ## Installation Instructions: 
+      ![code refactor demo](./imagePathHere.png)
+
+## Installation Instructions:
+
       ### slkdfj
 
-  ## Test Command: 
+## Test Command:
+
       ### sdlkfj
 
-  ## My Github Username: 
+## My Github Username:
+
       ### sdkljf
 
-  ## My Email Address:
+## My Email Address:
+
       ### sdlkjf
-  
-  ## Other Contributors:
+
+## Other Contributors:
+
       ### slkdjf
