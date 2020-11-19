@@ -16,10 +16,10 @@ function generateMarkdown(answers) {
           <h4> ${answers.name}</h4>
       </div>
       </br>
-      <div>
+      <a name="toc">
       <h2> Table of Contents: </h2> 
       <ul>
-          <li>*[Name](#name) </li>
+          <li>*[Project](#name) </li>
           <li>*[License](#license) </li>
           <li>*[Description](#description) </li>
           <li>*[Installation Instructions](#installationInstructions) </li>
@@ -28,7 +28,7 @@ function generateMarkdown(answers) {
           <li>*[Email](#email) </li>
           <li>*[Contributors](#contributors) </li>
       </ul>
-      </div>
+      </a>
   </br>
       <div>
           <h2>License: </h2>
