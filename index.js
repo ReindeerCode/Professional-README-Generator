@@ -1,24 +1,25 @@
 import inquirer from "inquirer";
-import fs from "fs";
-import util from "util";
+// import fs from "fs";
+// import generateMarkdown from "./utils/generateMarkdown";
 
-// inquirer
-//   .prompt(questions)
+inquirer
+  .prompt(questions)
 //   .then((answers) => {
 //     console.log(answers);
-//   });
+  });
 
+  
 // array of questions for user
 const questions = [
   {
     type: "input",
     name: "Name",
-    message: "What is your name?",
+    message: "What is your project's name?",
   },
   {
     type: "input",
     name: "Description",
-    message: "What is your project description.",
+    message: "Briefly, describe your project.",
   },
   {
     type: "list",
@@ -41,30 +42,26 @@ const questions = [
   },
   {
     type: "input",
-    name: "Usage Information",
-    message: "Provide usage information for the user.",
+    name: "Test",
+    message: "What is the command to test the project?",
   },
   {
     type: "input",
-    name: "Usage Information",
-    message: "Provide usage information for the user.",
+    name: "GitHub",
+    message: "What's your GitHub username?",
   },
   {
     type: "input",
-    name: "Usage Information",
-    message: "Provide usage information for the user.",
+    name: "Email",
+    message: "What is your email address?",
   },
   {
     type: "input",
-    name: "Contribution Guidelines",
-    message: "Outline the contribution guidelines.",
-  },
-  {
-    type: "input",
-    name: "Test Instructions",
-    message: "Outline the contribution guidelines.",
+    name: "Contributors",
+    message: "Who are the contributors of this project?",
   },
 ];
+
 
 // function to write README file
 function writeToFile(fileName, data) {}
