@@ -24,8 +24,6 @@ const questions = [
       new inquirer.Separator(),
       "AGPL",
       new inquirer.Separator(),
-      "No License Yet",
-      new inquirer.Separator(),
     ],
   },
   {
