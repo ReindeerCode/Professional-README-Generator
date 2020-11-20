@@ -1,5 +1,5 @@
 # Project:
-Readme Generator
+ReadMe Generator
 
 ## Table of Contents: 
 - [Name](#name)
@@ -12,10 +12,10 @@ Readme Generator
 - [Contributors](#contributors)
 
 ## License:
-[![License:GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)](https://opensource.org/licenses/GPLv3)
+[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
-Generates a professional readMe file through node featuring inquirer
+A template to create professional Readme files that uses the inquirer module
 
 ## Images:
 ![Project Screenshot](./imagePathHere.png)
@@ -25,7 +25,9 @@ Generates a professional readMe file through node featuring inquirer
 ![Project Screenshot](./imagePathHere.png)
 
 ## Installation Instructions: 
-inquirer module
+1. Test
+2. Test
+3. Test
 
 ## Test Command: 
 To test type node index.js into the terminal
