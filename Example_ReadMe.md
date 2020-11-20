@@ -1,21 +1,23 @@
 # Project:
-ReadMe Generator
+Generate Readme
 
 ## Table of Contents: 
-- [Name](#name)
-- [License](#license)
-- [Description](#description)
-- [Installation Instructions](#installationInstructions)
-- [Test](#test)
-- [GitHub](#gitHub)
-- [Email](#email)
-- [Contributors](#contributors)
+- [Project:](#project)
+  - [Table of Contents:](#table-of-contents)
+  - [License:](#license)
+  - [Description:](#description)
+  - [Images:](#images)
+  - [Installation Instructions:](#installation-instructions)
+  - [Test Command:](#test-command)
+  - [My Github Username:](#my-github-username)
+  - [My Email Address:](#my-email-address)
+  - [Other Contributors:](#other-contributors)
 
 ## License:
-[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License:GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)](https://opensource.org/licenses/GPLv3)
 
 ## Description:
-A template to create professional Readme files that uses the inquirer module
+A professional readMe file generator that uses Node Inquirer
 
 ## Images:
 ![Project Screenshot](./imagePathHere.png)
@@ -36,7 +38,7 @@ To test type node index.js into the terminal
 Check out more project on my Github at https://github.com/ReindeerCode
 
 ## My Email Address:
-If you have any question please feel free to email me at ReindeerCode@gmail.com
+If you have any question please feel free to email me at MJRudolph86@gmail.com
 
 ## Other Contributors:
 None at this time
