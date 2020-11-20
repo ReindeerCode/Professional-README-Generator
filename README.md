@@ -1,10 +1,10 @@
 # 09 Node.js Homework: Professional README Generator
 
-Deployed website link ->
+Deployed website link -> https://reindeercode.github.io/Professional-README-Generator/.
 
 Used the following site for verification -> https://validator.w3.org/nu/
 
-![Video Walk Through]()
+![Gif Walk Through](./)
 
 ## Your Task
 
