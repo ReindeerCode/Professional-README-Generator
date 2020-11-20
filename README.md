@@ -2,9 +2,8 @@
 
 Deployed website link -> https://reindeercode.github.io/Professional-README-Generator/.
 
-Used the following site for verification -> https://validator.w3.org/nu/
+Demo Video -> https://drive.google.com/file/d/1Zoju7AO4pZh6NOKoJjo2Yu1bN5QphC1r/view?usp=sharing
 
-![Gif Walk Through](./)
 
 ## Your Task
 

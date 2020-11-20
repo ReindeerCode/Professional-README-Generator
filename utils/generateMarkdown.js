@@ -34,7 +34,7 @@ ${answers.installationInstructions}
 To test type ${answers.test} into the terminal
 
 ## My Github Username: 
-Check out more project on my Github at ${answers.gitHub}
+Check out more project on my Github at https://github.com/${answers.gitHub}
 
 ## My Email Address:
 If you have any question please feel free to email me at ${answers.email}
